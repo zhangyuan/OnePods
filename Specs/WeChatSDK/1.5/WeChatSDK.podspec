@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
   s.author       = { "Yuan Cheung" => "zhangyuan@users.noreply.github.com" }
 
   s.platform     = :ios
-  s.source       = { :http => "https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/iOS2_SDK-64221cbf.zip"}
+  s.source       = { :http => "http://cocoapods.evcheung.com/d/WeChatSDK/iOS2_SDK-64221cbf.zip"}
+
   s.vendored_libraries = 'WeChatSDK_1.5/WeChatSDK_1.5/libWeChatSDK.a'
   s.source_files = "WeChatSDK_1.5/WeChatSDK_1.5/*.h"
 
